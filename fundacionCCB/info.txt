@@ -1,0 +1,27 @@
+Equipo Fundación CCB:
+	Luis Ángel Lucatero Villanueva
+	Elizabeth Rodríguez Fallas
+	Rubén Ortíz García
+	Brandon Reyes Minero
+
+
+Descripción:
+	Aplicación web desarrollada como proyecto escolar con el objetivo de crear un sistema centralizado para la evaluación de proyectos de la Fundación CCB.
+
+
+Plataformas:
+	Web
+
+
+Tecnologías empleadas:
+	Ruby on rails
+
+
+
+
+
+
+
+
+
+	
