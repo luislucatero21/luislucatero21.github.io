@@ -1,0 +1,32 @@
+Equipo GTR:
+	Luis Ángel Lucatero Villanueva
+	Mauricio Pérez Pérez
+	Natanael Pérez Bucio
+	Héctor Manuel Takami
+
+
+Descripción:
+	Aplicación Android desarrollada como proyecto escolar con el objetivo de llevar un registro de corredores en eventos de carreras de diferentes tipos.
+
+
+Plataformas:
+	Android
+	iOS
+
+
+Tecnologías empleadas:
+	Android Studio
+	XCode
+	Java
+	Swift
+	Room Persistence Library
+
+
+
+
+
+
+
+
+
+
