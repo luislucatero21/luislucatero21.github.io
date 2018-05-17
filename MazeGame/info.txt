@@ -1,0 +1,22 @@
+Creado por: 
+	Luis Ángel Lucatero Villanueva
+
+
+Descripción:
+	Proyecto personal en el que el jugador debe resolver laberintos creados aleatoriamente en un entorno tridimensional.
+
+
+Plataformas:
+	PC
+	Android
+
+
+Tecnologías empleadas:
+	Unity3D
+	C#
+
+
+
+
+
+
