@@ -4,36 +4,105 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Luis Angel Lucatero Villanueva - Senior iOS Developer</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+	<title>Luis Angel Lucatero Villanueva - Senior iOS Developer</title>
 </head>
 
 <body>
 	<header>
-		<h1>Luis Angel Lucatero Villanueva</h1>
-		<h2>Senior iOS Developer</h2>
+		<nav>
+			<a href="#about">About</a>
+			<a href="#skills">Skills</a>
+			<a href="#projects">Projects</a>
+			<a href="#contact">Contact</a>
+		</nav>
+		<div class="header-content">
+			<img src="photo.png" alt="Luis Angel Lucatero Villanueva" class="profile-picture">
+			<h1>Luis Angel Lucatero Villanueva</h1>
+			<h2>Senior iOS Developer</h2>
+		</div>
 	</header>
+
 	<main>
-		<section class="overview">
-			<h2>Overview</h2>
-			<p>With over 5 years of experience as an iOS Developer, I have worked on a variety of projects, including
-				Augmented Reality apps, e-commerce, and digital media platforms. I have extensive experience with Swift,
-				Objective-C, and C#, and I'm skilled in utilizing modern iOS development practices and architectures,
-				such as MVVM and reactive programming using Combine framework. In addition, I'm passionate about
-				learning and exploring new technologies like Machine Learning and Artificial Intelligence.</p>
+		<section id="about">
+			<h2>About</h2>
+			<p>Senior iOS Developer with over 5 years of experience, specializing in Swift, Objective-C, and design
+				patterns like MVVM, CLEAN, RxSwift, and Combine. I have a proven track record of crafting innovative,
+				high-performance applications and delivering top-quality solutions. My expertise includes augmented
+				reality, unit testing, and working on large-scale projects such as Walmart One App and JibJab. Always
+				eager to explore cutting-edge technologies to stay ahead in the industry.</p>
 		</section>
-		<section class="highlights">
-			<h2>Highlights</h2>
-			<ul>
-				<li>Developed BilletesMx, an AR app that reached over 4 million users</li>
-				<li>Improved app performance for various projects, such as reducing API calls and optimizing memory
-					usage</li>
-				<li>Mentored and provided lectures for the iOS Apprenticeship Program at Wizeline</li>
-				<li>Worked on high-profile projects with clients like Walmart and Banco de México</li>
-			</ul>
+
+		<section id="skills">
+			<h2>Skills</h2>
+			<div class="skills-container">
+				<div class="skill-group">
+					<h3>Programming Languages</h3>
+					<div class="skill">
+						<i class="fab fa-swift"></i>
+						<h4>Swift</h4>
+					</div>
+					<div class="skill">
+						<i class="fas fa-code"></i>
+						<h4>Objective C</h4>
+					</div>
+					<div class="skill">
+						<i class="fab fa-cuttlefish"></i>
+						<h4>C#</h4>
+					</div>
+				</div>
+				<div class="skill-group">
+					<h3>Frameworks & Libraries</h3>
+					<div class="skill">
+						<i class="fab fa-apple"></i>
+						<h4>iOS Development</h4>
+						<p>UIKit, SwiftUI</p>
+					</div>
+					<div class="skill">
+						<i class="fas fa-database"></i>
+						<h4>Database</h4>
+						<p>Core Data, Realm</p>
+					</div>
+				</div>
+				<div class="skill-group">
+					<h3>Other Skills</h3>
+					<div class="skill">
+						<i class="fas fa-project-diagram"></i>
+						<h4>Design Patterns</h4>
+						<p>MVC, MVVM, CLEAN</p>
+					</div>
+					<div class="skill">
+						<i class="fas fa-check-double"></i>
+						<h4>Unit Testing</h4>
+					</div>
+					<div class="skill">
+						<i class="fas fa-user-friends"></i>
+						<h4>Mentoring</h4>
+					</div>
+				</div>
+			</div>
 		</section>
-		<section class="projects">
-			<h2>Key Projects</h2>
+
+
+		<section id="projects">
+			<h2>Projects</h2>
+
+			<div class="project">
+				<h3>JibJab - iOS Engineer</h3>
+				<p>Developed and designed various features, including the implementation of dark mode and a new
+					registration screen. Optimized user experience by fixing bugs and giving knowledge-sharing sessions
+					on reactive programming and unit testing.</p>
+			</div>
+			<div class="project">
+				<h3>Walmart One App</h3>
+				<p>Worked on the development and maintenance of the Walmart One App, implementing various features and
+					bug fixes to improve user experience and performance.</p>
+			</div>
 			<div class="project">
 				<h3>BilletesMx - AR Banknote Identifier</h3>
 				<p>Developed an app that uses Augmented Reality to identify and provide information about Mexican
@@ -41,31 +110,23 @@
 					Store and Play Store.</p>
 			</div>
 			<div class="project">
-				<h3>Walmart One App</h3>
-				<p>Worked on the development and maintenance of the Walmart One App, implementing various features and
-					bug fixes to improve user experience and performance.</p>
+				<h3>SÍCLO - Indoor Cycling App</h3>
+				<p>Maintained and improved the SÍCLO app by reducing API calls, cleaning code, and implementing an Apple
+					Watch version. Enhancements led to an increase in efficiency and an improved user experience.</p>
 			</div>
 		</section>
-		<section class="skills">
-			<h2>Technical Skills</h2>
-			<ul>
-				<li>Swift, Objective-C, and C#</li>
-				<li>UIKit, SwiftUI, and Combine</li>
-				<li>MVVM, CLEAN, and other design patterns</li>
-				<li>Version control with Git</li>
-				<li>Augmented Reality and Unity</li>
-			</ul>
-		</section>
 	</main>
-	<footer>
+
+	<footer id="contact">
+		<h2>Contact</h2>
 		<div class="contact-info">
 			<p>Email: <a href="mailto:luislucatero21@gmail.com">luislucatero21@gmail.com</a></p>
 			<p>Phone: (+52) 5518616985</p>
-			<p>GitHub: <a href="https://github.com/luislucatero21" target="_blank">github.com/luislucatero21</a></p>
-			<p>LinkedIn: <a href="https://www.linkedin.com/in/luislucaterov"
-					target="_blank">linkedin.com/in/luislucaterov</a></p>
 		</div>
-
+		<div class="social-icons">
+			<a href="https://github.com/luislucatero21" target="_blank"><i class="fab fa-github"></i></a>
+			<a href="https://www.linkedin.com/in/luislucaterov" target="_blank"><i class="fab fa-linkedin"></i></a>
+		</div>
 	</footer>
 </body>
 
