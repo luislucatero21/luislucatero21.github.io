@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background-color: #4CAF50;
+  padding: 20px;
+}
+
+header h1 {
+  color: white;
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+h2, h3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.job {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.job:last-child {
+  border: none;
+}
+
+.job h3 {
+  margin-top: 0;
+}
+
+.job-duration, .degree-duration {
+  font-style: italic;
+  color: #777;
+  font-size: 0.9em;
+}
+
+.tech-stack {
+  font-size: 0.9em;
+  color: #777;
+}
+
+.skills ul, .education ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-info p {
+  margin-bottom: 5px;
+}
+
+.contact-info a {
+  color: #333;
+  text-decoration: none;
+}
